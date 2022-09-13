@@ -1,0 +1,2 @@
+web: bin/rails server -b 142.93.127.70 -p 3000
+css: bin/rails tailwindcss:watch
