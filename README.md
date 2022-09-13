@@ -1,24 +1,9 @@
-# README
+# Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Basic Ruby on Rails application running on a cheap DO droplet. Prefered stack to develop web applications...
+	- Postgresql
+	- Mailgun api (for mail delivery)
+	- Possibly use of Stripe api
+	- TailwindCss for styling
+	- Some basic StimulusJs for interactions in the front
+	- Others to come...
