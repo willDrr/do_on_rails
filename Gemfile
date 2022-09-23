@@ -77,6 +77,8 @@ gem "devise", "~> 4.8"
 
 gem "mailgun-ruby", "~> 1.2"
 
+gem 'ed25519', '~> 1.2'
+gem 'bcrypt_pbkdf', '~> 1'
 
 # deploying purposes
 gem 'capistrano', '~> 3.11'
