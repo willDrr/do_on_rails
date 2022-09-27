@@ -1,6 +1,6 @@
 # Load DSL and set up stages
 require "capistrano/setup"
-require "capistrano/rails/migrations"
+
 
 # Include default deployment tasks
 require "capistrano/deploy"
@@ -10,6 +10,8 @@ require "capistrano/passenger"
 require "capistrano/rbenv"
 
 require "capistrano-secrets-yml"
+
+require "capistrano/rails/migrations"
 
 set :rbenv_type, :user
 set :rbenv_ruby, '3.1.2'
