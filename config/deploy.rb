@@ -46,13 +46,13 @@ append :linked_files, 'config/credentials/production.key'
 
 # personal tasks
 
-namespace :deploy do
-  desc "Create DB"
-  task :seed do
-    on roles(:all) do
-      within_current_path do
-        execute :bundle, :exec, 'rails', 'db:prepare', 'RAILS_ENV=production'
-      end
-    end
-  end
-end
+# namespace :deploy do
+#   desc "Create DB"
+#   task :seed do
+#     on roles(:all) do
+#       within_current_path do
+#         execute :bundle, :exec, 'rails', 'db:prepare', 'RAILS_ENV=production'
+#       end
+#     end
+#   end
+# end
