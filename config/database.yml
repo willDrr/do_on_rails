@@ -9,8 +9,6 @@ default: &default
 development:
   <<: *default
   database: testapp_development
-  user: <%= ENV["DB_USER"] %>
-  user: <%= ENV["APP_DATABASE_USER"] %>
 
 test:
   <<: *default
