@@ -87,3 +87,6 @@ gem 'capistrano-passenger', '~> 0.2.0'
 gem 'capistrano-rbenv', '~> 2.1', '>= 2.1.4'
 
 gem "capistrano-secrets-yml", "~> 1.2"
+
+gem "omniauth-google-oauth2"
+gem "omniauth-rails_csrf_protection"
