@@ -59,15 +59,10 @@ group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 
-  # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
-  # gem "rack-mini-profiler"
-
-  # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
-  # gem "spring"
+  gem "rspec-rails"
 end
 
 group :test do
-  # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
@@ -90,3 +85,5 @@ gem "capistrano-secrets-yml", "~> 1.2"
 
 gem "omniauth-google-oauth2"
 gem "omniauth-rails_csrf_protection"
+
+gem "rspec", "~> 3.11"
